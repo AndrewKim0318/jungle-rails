@@ -24,7 +24,7 @@
           <dd><%= @product.quantity %></dd>
           <br>
           <dd><b>Price</b></dd>
-          <dd>$<%= @product.price %></dd>
+          <dd><%= humanized_money_with_symbol @product.price %></dd>
         </dl>
       </div>
     </div>
