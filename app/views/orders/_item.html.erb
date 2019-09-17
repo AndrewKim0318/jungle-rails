@@ -1,0 +1,35 @@
+<div class="order-list">
+  <div>
+    <%= image_tag product.image.tiny %>
+  </div>
+  <div>
+    <h4 class="spaced"><%= product.name %></h4>
+    <br>
+    <p class="spaced"><%= product.description %></p>
+    <br>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td>
+          <%= quantity %>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>
+          <%= humanized_money_with_symbol product.price * quantity %>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>

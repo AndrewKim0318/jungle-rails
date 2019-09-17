@@ -5,7 +5,11 @@
   </header>
 
   <div class="order-summary jumbotron">
-    <h4>Thank you for your order!</h4>
+    <h4>Thank you for your order <%= @order.email %>!</h4>
+    <% @order.line_items.product.each do |item| %>
+      <%= render 'item', product: Product.where(id: item[0][:product_id]).product[0][0], quantity: item[0][:quantity].to_i, email: @order.email %>
+    <% end %>
+    <h4>Total: <%= humanized_money_with_symbol @order.total_cents/100.00 %></h4>
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
