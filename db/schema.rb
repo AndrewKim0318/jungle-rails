@@ -49,10 +49,10 @@ ActiveRecord::Schema.define(version: 20190918161219) do
     t.string   "image"
     t.integer  "price_cents"
     t.integer  "quantity"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
     t.integer  "category_id"
-    t.integer  "discount_cents"
+    t.integer  "sales_percent_off"
   end
 
   add_index "products", ["category_id"], name: "index_products_on_category_id", using: :btree
