@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Product, type: :model do
   describe 'Validations' do
-    it "create a new product" do
+    xit "create a new product" do
       newCategory = Category.create(name: "test")
       newProduct = Product.create(name: "shoes", price: 600, quantity: 5, category: Category.find(newCategory.id))
 
