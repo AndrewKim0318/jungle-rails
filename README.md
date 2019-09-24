@@ -4,25 +4,25 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 # Final Product
 - Homepage
-!["Homepage"]()
+!["Homepage"](https://github.com/Kimwj0318/jungle-rails/blob/master/public/docs/Homepage.png)
 
 - Product Detail
-!["Product Detail"]()
+!["Product Detail"](https://github.com/Kimwj0318/jungle-rails/blob/master/public/docs/Product-Detail.png)
 
 - Specific Category
-!["Category"]()
+!["Category"](https://github.com/Kimwj0318/jungle-rails/blob/master/public/docs/Specific-Category.png)
 
 - Admin Product Page
-!["Admin Product"]()
+!["Admin Product"](https://github.com/Kimwj0318/jungle-rails/blob/master/public/docs/Admin-Product.png)
 
 - Admin Categories Page
-!["Admin Categories"]()
+!["Admin Categories"](https://github.com/Kimwj0318/jungle-rails/blob/master/public/docs/Admin-Category.png)
 
 - My Cart
-!["Cart"]()
+!["Cart"](https://github.com/Kimwj0318/jungle-rails/blob/master/public/docs/Cart.png)
 
 - Order Detail
-!["Order Detail"]()
+!["Order Detail"](https://github.com/Kimwj0318/jungle-rails/blob/master/public/docs/Order-Detail.png)
 
 # Dependencies
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
