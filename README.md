@@ -2,26 +2,39 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+# Final Product
+- Homepage
+!["Homepage"]()
 
-## Setup
+- Product Detail
+!["Product Detail"]()
 
-1. Run `bundle install` to install dependencies
-2. Create `config/database.yml` by copying `config/database.example.yml`
-3. Create `config/secrets.yml` by copying `config/secrets.example.yml`
-4. Run `bin/rake db:reset` to create, load and seed db
-5. Create .env file based on .env.example
-6. Sign up for a Stripe account
-7. Put Stripe (test) keys into appropriate .env vars
-8. Run `bin/rails s -b 0.0.0.0` to start the server
+- Specific Category
+!["Category"]()
 
-## Stripe Testing
+- Admin Product Page
+!["Admin Product"]()
 
-Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
+- Admin Categories Page
+!["Admin Categories"]()
 
-More information in their docs: <https://stripe.com/docs/testing#cards>
+- My Cart
+!["Cart"]()
 
-## Dependencies
+- Order Detail
+!["Order Detail"]()
 
+# Dependencies
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+# Description
+- An online shopping app that allow users to buy items
+  - user must provide credit card information (fake) to purchase
+  - an order detail is shown when a purchase is made
+
+- Homepage displays a list of products that are currently being sold
+  - Items that are sold out have a "sold out" tag
+
+- Admins can add or remove products, categories, and sales from the website
